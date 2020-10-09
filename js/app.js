@@ -13,21 +13,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const list = document.querySelector('ul');
         list.appendChild(newListItem);
 
-        event.target.name.value = ""
-        event.target.diet.value = ""
-        event.target.winged.value = ""
-        event.target.period.value = ""
-
+        document.getElementById("new-item-form").reset()
     }
 
-    // const handleFormDelete = function(){
-    //     let readingList = document.querySelector('ul')
-    //     readingList.innerHTML = ""
-    // }
+    const handleFormDelete = function(){
+        let readingList = document.querySelector('ul')
+        readingList.innerHTML = ""
+        console.log("Done for");
+    }
 
 const form = document.querySelector('#new-item-form');
 form.addEventListener('submit', handleFormSubmit)
 
-// const list = document.querySelector('#delete');
-// list.addEventListener('click', handleFormDelete)
+const list = document.querySelector('#delete');
+list.addEventListener('click', handleFormDelete)
 })
