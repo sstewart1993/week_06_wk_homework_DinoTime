@@ -1,3 +1,18 @@
 body {
     font-family: Palatino;
   }
+
+body>form>div>div>input{
+  text-transform: capitalize;
+}
+
+body>form>div>ul>li{
+  text-transform: capitalize;
+}
+
+#new-item-form{
+  color:black;
+  font-weight: bold;
+  text-transform: capitalize
+
+}

@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault()
 
         const newListItem = document.createElement('li');
-        newListItem.textContent = `Name: ${event.target.name.value} 
+        newListItem.textContent = 
+        `Name: ${event.target.name.value} 
         Diet: ${event.target.diet.value} 
         Winged: ${event.target.winged.value}  
         Period: ${event.target.period.value}`
