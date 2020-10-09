@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dino Time</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <form id="new-item-form">
+        <div id="form-wrapper">
+          <div class="form-item">
+            <label for="name" class="primary">Name</label>
+            <input type="text" id="name" required/>
+          </div>
+  
+          <div class="form-item">
+            <label for="diet" class="primary">Diet</label>
+            <select id="diet">
+            <option value ="" disabled selected ></option>
+            <option value = "Herbivore">Herbivore</option>
+            <option value = "Carnivore">Carnivore</option>
+            <option value="Omnivores">Omnivores</option>
+            </select>
+  
+          </div>
+  
+          <div class="form-item">
+            <label for="winged" class="primary">Winged</label>
+            <select id="winged">
+            <option value="" disabled selected></option>
+            <option value="had wings">Had Wings</option>
+            <option value="no wings">Didn't Have Wings</option>
+          </select>
+          <div class="form-item">
+              <label for="period" class ="primary">Period</label>
+              <select id="period">
+                  <option value ="" disabled selected></option>
+                  <option value= "Triassic">Triassic</option>
+                  <option value = "Jurassic">Jurassic</option>
+                  <option value="Cretaceous">Cretaceous</option>
+              </select>
+          </div>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+    <!-- <button id="delete" value = "delete">delete</button> -->
+    <input type="submit" name="delete" id="delete" value="delete">
+
+    <h1>Dinosaurs RAAARRRRRRR!!!</h1>
+    <ul id="dinosaurs"></ul>
+  </body>
+</html>
