@@ -6,7 +6,7 @@ body>form>div>div>input{
   text-transform: capitalize;
 }
 
-body>form>div>ul>li{
+body>form>ul>li{
   text-transform: capitalize;
 }
 
@@ -17,6 +17,7 @@ body>form>div>ul>li{
 }
 
 #dinosaurs{
+text-transform: capitalize;
 flex-direction: column;
 align-items: center;
 }
