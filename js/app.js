@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const handleFormDelete = function(){
-        let readingList = document.querySelector('ul')
-        readingList.innerHTML = ""
+        let dino = document.querySelector('ul')
+        dino.innerHTML = ""
         console.log("Done for");
     }
 
