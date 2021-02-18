@@ -26,12 +26,12 @@ body{
   background: green
 }
 
-body>form>div>h1{
+.title{
 display: grid;
 grid-auto-columns: max-content;
 align-items: center;
 font-weight: bolder;
-color: purple;
+color: whitesmoke;
 }
 
 body>form>div>input{
